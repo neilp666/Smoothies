@@ -14,3 +14,5 @@ Smoothie Recipe app
 
 * Devise 
 
+* Simple Form
+
