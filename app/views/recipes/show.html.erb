@@ -1,7 +1,10 @@
 <p>Show</p>
 
-<h2><%= @recipe.title %></h2>
+<%= image_tag @recipe.image.url(:small) %>
+
+<h1><%= @recipe.title %></h1>
 <h3><%= @recipe.description %></h3>
+
 
 <%= link_to "Back", root_path, class: "btn btn-primary" %>
 <%= link_to "Edit", edit_recipe_path, class: "btn btn-default" %>
